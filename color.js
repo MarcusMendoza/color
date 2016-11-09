@@ -1,7 +1,6 @@
 //Declare the Color Object with our new keyword below here.
-const colorobject(){
-
-}
+const colorobjec()
+  let rgb[r,g,b]
 
 /*
 ** rgb is an array that hold the color values.
@@ -25,17 +24,26 @@ Color.isColor = function(rgb){
 };
 
 Color.redIntensity = function(rgb){
-let redIntensity = redworks/255
+let redIntensity = redworks[0]/255;
+redIntensity=redIntensity*100;
 redIntensity = Math.Round(redIntensity)
 };
 
 //greenIntensity
-
+Color.greenIntensity = function(rgb){
+let greenIntensity = greenworks[1]/255;
+greenIntensity=greenIntensity*100;
+greenIntensity = Math.Round(greenIntensity)
+};
 
 //blueIntensity
-
+Color.blueIntensity = function(rgb){
+let blueIntensity = blueworks[2]/255;
+blueIntensity=blueIntensity*100;
+blueIntensity = Math.Round(blueIntensity)
+};
 
 //brightness
-
+color.brightness= function()
 
 //complement
